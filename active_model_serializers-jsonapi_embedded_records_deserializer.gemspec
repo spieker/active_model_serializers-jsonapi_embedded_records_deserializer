@@ -18,10 +18,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  # This only works with "0.10.0.rc4". On the current "master" branch, the
-  # deserializer has already been moved to
-  # active_model_serializers/adapter/json_api/deserialization
-  spec.add_dependency 'active_model_serializers', '0.10.0.rc4'
+  spec.add_dependency 'active_model_serializers'
   spec.add_runtime_dependency 'railties', '>= 4.0'
 
   spec.add_development_dependency 'bundler', '~> 1.11'
