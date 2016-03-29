@@ -82,6 +82,17 @@ specified in the `embedded` key of the deserialization options.
 ActiveModelSerializers::Deserialization.jsonapi_parse(data, embedded: [:author])
 ```
 
+The deserialization part of ActiveModelSerializer is restructured between
+`0.10.0.rc4` and the current `master` branch. Please check the version table
+below to choose the right gem version.
+
+|-------------------------------|-------------|
+| ActiveModelSerializer version | Gem version |
+|-------------------------------|-------------|
+| 0.10.0.rc4                    | 0.1.0       |
+| master (currently: c7b2916)   | 0.1.1       |
+|-------------------------------|-------------|
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
