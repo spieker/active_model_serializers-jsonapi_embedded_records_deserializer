@@ -86,12 +86,10 @@ The deserialization part of ActiveModelSerializer is restructured between
 `0.10.0.rc4` and the current `master` branch. Please check the version table
 below to choose the right gem version.
 
-|-------------------------------|-------------|
 | ActiveModelSerializer version | Gem version |
 |-------------------------------|-------------|
 | 0.10.0.rc4                    | 0.1.0       |
 | master (currently: c7b2916)   | 0.1.1       |
-|-------------------------------|-------------|
 
 ## Development
 
