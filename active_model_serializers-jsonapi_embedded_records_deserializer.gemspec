@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["p.spieker@duenos.de"]
 
   spec.summary       = %q{Deserializing embedded JSONAPI records into ActiveRecord nested attributes (Not part of the JSONAPI spec yet!)}
-  spec.homepage      = "https://github/spieker/active_model_serializers-jsonapi_embedded_records_deserializer"
+  spec.homepage      = "https://github.com/spieker/active_model_serializers-jsonapi_embedded_records_deserializer"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
