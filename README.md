@@ -57,6 +57,36 @@ expected by ActiveRecord containing the nested attributes.
 }
 ```
 
+It is also possible to specify one to many relationship with standard JSON-API syntax.
+
+```json
+{
+  "data": {
+    "type": "photos",
+    "id": "zorglub",
+    "attributes": {
+      "title": "Ember Hamster",
+      "src": "http://example.com/images/productivity.png"
+    },
+    "relationships": {
+      "authors": {
+        "data": [{
+          "type": "author",
+          "attributes": {
+            "name": "John Doe"
+          }
+        }, {
+          "type": "author",
+          "attributes": {
+            "name": "Richard Roe"
+          }
+        }]
+      }
+    }
+  }
+}
+```
+
 ## Installation
 
 Add this line to your application's Gemfile:
